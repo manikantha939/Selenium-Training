@@ -22,4 +22,9 @@ public class GitTest {
     public void test4(){
         System.out.println("Develop branch: Test 4");
     }
+
+    @Test
+    public void test5(){
+        System.out.println("Develop branch: Test 5");
+    }
 }
