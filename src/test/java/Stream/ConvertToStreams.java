@@ -27,5 +27,6 @@ public class ConvertToStreams {
 
         List<Integer> integerList=Arrays.asList(1,2,3,4);
         integerList.stream().forEach(System.out::println);
+        System.out.println(integerList);
     }
 }
