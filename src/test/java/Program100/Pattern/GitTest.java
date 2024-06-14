@@ -12,4 +12,14 @@ public class GitTest {
     public void test2(){
         System.out.println("Develop branch: Test 2");
     }
+
+    @Test
+    public void test3(){
+        System.out.println("Develop branch: Test 3");
+    }
+
+    @Test
+    public void test4(){
+        System.out.println("Develop branch: Test 4");
+    }
 }
