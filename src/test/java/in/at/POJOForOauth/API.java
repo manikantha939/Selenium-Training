@@ -3,7 +3,6 @@ package in.at.POJOForOauth;
 public class API {
     private String courseTitle;
     private String price;
-
     public String getCourseTitle() {
         return courseTitle;
     }
