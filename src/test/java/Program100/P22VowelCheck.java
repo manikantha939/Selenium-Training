@@ -11,6 +11,6 @@ public class P22VowelCheck {
     }
 
     private static boolean containsVowel(String str) {
-        return str.matches(".*[aeiouAEIOU].*");
+        return str.matches(".*[aeiouAEIOU]*.");
     }
 }

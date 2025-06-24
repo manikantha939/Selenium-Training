@@ -20,12 +20,12 @@ public class ValidateResponseStatusCodesTest {
 
         Assert.assertEquals(statusCode, 200);
 
-        //DSL
+        //DSL - Domain Specific Language
         given()
                 .when()
                     .get("https://fakestoreapi.com/products/1")
                 .then()
-                    .statusCode(201);
+                    .statusCode(200);
     }
 
 

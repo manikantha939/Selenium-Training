@@ -12,21 +12,22 @@ public class Sorted {
                 .sorted()
                 .forEach(System.out::println);//it will sort in ascending order
 
-        //descending order
+        System.out.println("------------------descending order----------------------");
         list.stream()
                 .sorted(Comparator.reverseOrder())
                 .forEach(System.out::println);
 
+        System.out.println("------------------based on String length----------------------");
         List<String> list1 = Arrays.asList("apple", "banana", "kiwi", "chherry");
 
         list1.stream()
                 .sorted(Comparator.comparingInt(String::length))
                 .forEach(System.out::println);
 
+        System.out.println("------------------based on String length reversed----------------------");
         List<String> list2 = list1.stream()
                 .sorted(Comparator.comparing(String::length).reversed())
                 .toList();
         list2.forEach(System.out::println);
-
     }
 }
